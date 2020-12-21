@@ -1,3 +1,5 @@
+#Chart created to be fed in real time from TXT file using Python
+
 import matplotlib.pyplot as plt
 from matplotlib import animation
 import pandas as pd
