@@ -5,7 +5,7 @@ import xlrd
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
 
-file1 = pd.read_excel(r'INSIRA AQUI O CAMINHO DO AQUI')
+file1 = pd.read_excel(r'INSIRA AQUI O CAMINHO DO ARQUIVO')
 a = file1
 A = np.array(a)
 #O numpy irá transformar os dados do excel em uma lista. Cada lista também ser+a representada por uma outra lista Ex.:[[]]
